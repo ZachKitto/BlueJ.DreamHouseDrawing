@@ -30,29 +30,313 @@ public class Picture
      */
     public void draw()
     {
-        wall = new Square();
-        wall.moveVertical(80);
-        wall.changeSize(100);
-        wall.makeVisible();
-
+        window = new Square();
+        window.changeColor("blue");
+        window.moveHorizontal(-500);
+        window.moveVertical(-100);
+        window.changeSize(3000);
+        window.makeVisible();
+        
         window = new Square();
         window.changeColor("black");
-        window.moveHorizontal(20);
-        window.moveVertical(100);
+        window.moveHorizontal(100);
+        window.moveVertical(40);
+        window.changeSize(75);
         window.makeVisible();
-
+        
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(100);
+        window.moveVertical(115);
+        window.changeSize(75);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(175);
+        window.moveVertical(40);
+        window.changeSize(75);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(175);
+        window.moveVertical(115);
+        window.changeSize(75);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(100);
+        window.moveVertical(190);
+        window.changeSize(75);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(175);
+        window.moveVertical(190);
+        window.changeSize(75);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(100);
+        window.moveVertical(265);
+        window.changeSize(75);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(175);
+        window.moveVertical(265);
+        window.changeSize(75);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(700);
+        window.moveVertical(40);
+        window.changeSize(75);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(700);
+        window.moveVertical(115);
+        window.changeSize(75);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(625);
+        window.moveVertical(40);
+        window.changeSize(75);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(625);
+        window.moveVertical(115);
+        window.changeSize(75);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(700);
+        window.moveVertical(190);
+        window.changeSize(75);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(625);
+        window.moveVertical(190);
+        window.changeSize(75);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(700);
+        window.moveVertical(265);
+        window.changeSize(75);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(625);
+        window.moveVertical(265);
+        window.changeSize(75);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(440);
+        window.moveVertical(130);
+        window.changeSize(75);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(365);
+        window.moveVertical(130);
+        window.changeSize(75);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("black");
+        window.moveHorizontal(100);
+        window.moveVertical(200);
+        window.changeSize(675);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("magenta");
+        window.moveHorizontal(400);
+        window.moveVertical(575);
+        window.changeSize(75);
+        window.makeVisible();
+        
+        sun = new Circle();
+        sun.changeColor("magenta");
+        sun.moveHorizontal(440);
+        sun.moveVertical(530);
+        sun.changeSize(75);
+        sun.makeVisible();
+        
         roof = new Triangle();
-        roof.changeSize(50, 140);
-        roof.moveHorizontal(60);
+        roof.changeSize(100, 200);
+        roof.changeColor("magenta");
+        roof.moveHorizontal(185);
+        roof.moveVertical(-10);
+        roof.makeVisible();
+        
+        roof = new Triangle();
+        roof.changeSize(100, 200);
+        roof.changeColor("magenta");
+        roof.moveHorizontal(450);
         roof.moveVertical(70);
         roof.makeVisible();
+        
+        roof = new Triangle();
+        roof.changeSize(100, 200);
+        roof.changeColor("magenta");
+        roof.moveHorizontal(710);
+        roof.moveVertical(-10);
+        roof.makeVisible();
+        
+        roof = new Triangle();
+        roof.changeSize(200, 70);
+        roof.changeColor("green");
+        roof.moveHorizontal(840);
+        roof.moveVertical(450);
+        roof.makeVisible();
+        
+        roof = new Triangle();
+        roof.changeSize(200, 70);
+        roof.changeColor("green");
+        roof.moveHorizontal(880);
+        roof.moveVertical(400);
+        roof.makeVisible();
+        
+        roof = new Triangle();
+        roof.changeSize(200, 70);
+        roof.changeColor("green");
+        roof.moveHorizontal(0);
+        roof.moveVertical(350);
+        roof.makeVisible();
+        
+        roof = new Triangle();
+        roof.changeSize(200, 70);
+        roof.changeColor("green");
+        roof.moveHorizontal(70);
+        roof.moveVertical(300);
+        roof.makeVisible();
 
-        sun = new Circle();
-        sun.changeColor("yellow");
-        sun.moveHorizontal(180);
-        sun.moveVertical(-10);
-        sun.changeSize(60);
-        sun.makeVisible();
+        window = new Square();
+        window.changeColor("yellow");
+        window.moveHorizontal(200);
+        window.moveVertical(240);
+        window.changeSize(40);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("yellow");
+        window.moveHorizontal(200);
+        window.moveVertical(280);
+        window.changeSize(40);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("yellow");
+        window.moveHorizontal(200);
+        window.moveVertical(320);
+        window.changeSize(40);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("yellow");
+        window.moveHorizontal(425);
+        window.moveVertical(240);
+        window.changeSize(40);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("yellow");
+        window.moveHorizontal(425);
+        window.moveVertical(280);
+        window.changeSize(40);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("yellow");
+        window.moveHorizontal(425);
+        window.moveVertical(320);
+        window.changeSize(40);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("yellow");
+        window.moveHorizontal(650);
+        window.moveVertical(240);
+        window.changeSize(40);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("yellow");
+        window.moveHorizontal(650);
+        window.moveVertical(280);
+        window.changeSize(40);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("yellow");
+        window.moveHorizontal(650);
+        window.moveVertical(320);
+        window.changeSize(40);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("yellow");
+        window.moveHorizontal(310);
+        window.moveVertical(360);
+        window.changeSize(40);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("yellow");
+        window.moveHorizontal(310);
+        window.moveVertical(400);
+        window.changeSize(40);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("yellow");
+        window.moveHorizontal(310);
+        window.moveVertical(440);
+        window.changeSize(40);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("yellow");
+        window.moveHorizontal(540);
+        window.moveVertical(360);
+        window.changeSize(40);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("yellow");
+        window.moveHorizontal(540);
+        window.moveVertical(400);
+        window.changeSize(40);
+        window.makeVisible();
+        
+        window = new Square();
+        window.changeColor("yellow");
+        window.moveHorizontal(540);
+        window.moveVertical(440);
+        window.changeSize(40);
+        window.makeVisible();
     }
 
     /**
